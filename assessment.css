@@ -1,3 +1,51 @@
-h2{
+h2, h3, h4, h5{
+  color: purple;
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: square;
+}
+th{
+   font-weight: bolder;
   color: red;
+}
+table{
+  border-collapse: collapse;
+  text-align:center;
+}
+th,td{
+  border: 2px solid blue;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+blockquote
+{
+  color: pink;
+  background-color: blue ;
+}
+#checkbox-grid{
+  list-style-type: none;
+
+}
+#teamRoster >li:first-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+}
+#teamRoster >li:last-child{
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+background-repeat: no-repeat;
+}
+img{
+  display: none;
+}
+li Peyton{
+  font-weight: bolder;
+}
+table tr:nth-child(even) {
+  background-color: grey;
+}
+table tr:nth-child(odd) {
+  background-color:orange;
 }
